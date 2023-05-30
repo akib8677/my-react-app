@@ -1,0 +1,15 @@
+.uderline {
+  border-bottom: 3px solid blue;
+}
+
+input[type="text"] {
+  border: 0 !important;
+  outline: none !important;
+}
+
+input:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none;
+  transition: all 0.1s linear;
+}
